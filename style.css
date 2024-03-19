@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    box-sizing: border-box;
+    background: rgb(239, 239, 239);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    
+}
+.border{
+    border: 2px solid rgb(52, 50, 50);
+}
+.container{
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+.d-container{
+    width: 50%;
+    height: 100%;
+    /* margin: 0 auto; */
+}
+.d-flex{
+    display: flex;
+}
+.text-center{
+    text-align: center;
+}
+.flex-col{
+    flex-direction: column;
+}
+.jutify-content-center{
+    justify-content: center;
+}
+.align-items-center{
+    align-items: center;
+}
+/* Entrada de datos */
+.info{
+    margin: 0px;
+    width: 90%;
+    height: 20%;
+    border-radius: 10px;
+    border: 3px solid rgb(0, 255, 225);
+    background: white;
+}
+/* Tamaño de la letra */
+.text-size-4{
+    font-size: 4rem;
+}
+.text-size-2{
+    font-size: 2rem;
+}
+.btn-primary{
+    background: rgb(66, 167, 235);
+    color: rgb(255, 255, 255);
+    transition: background 0.5s;
+}
+.btn-primary:hover{
+    background: rgb(28, 120, 159);
+}
+.btn-alert{
+    background: rgb(241, 128, 103);
+    color: rgb(255, 255, 255);
+    transition: background 0.5s;
+}
+.btn-alert:hover{
+    background: rgb(205, 70, 33);
+}
+
+/* Botones */
+.btn{
+    width: 50%;
+    height: 15%;
+    border-radius: 10px;
+    margin: 5px;
+    border: none;
+}
